@@ -1,0 +1,60 @@
+2026-04-08T02:44:04.970-07:00  WARN 24462 --- [restful-webservices] [HikariPool-201:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-201 - Thread starvation or clock leap detected (housekeeper delta=2h19m52s59ms).
+2026-04-08T03:33:25.076-07:00  WARN 24462 --- [restful-webservices] [HikariPool-201:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-201 - Thread starvation or clock leap detected (housekeeper delta=49m20s112ms).
+2026-04-08T05:43:17.063-07:00  WARN 24462 --- [restful-webservices] [HikariPool-201:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-201 - Thread starvation or clock leap detected (housekeeper delta=2h9m51s989ms).
+2026-04-08T07:00:30.246-07:00  WARN 24462 --- [restful-webservices] [HikariPool-201:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-201 - Thread starvation or clock leap detected (housekeeper delta=1h17m13s183ms).
+2026-04-08T09:13:26.148-07:00  WARN 24462 --- [restful-webservices] [HikariPool-201:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-201 - Thread starvation or clock leap detected (housekeeper delta=2h12m55s902ms).
+2026-04-08T09:57:14.930-07:00  WARN 24462 --- [restful-webservices] [HikariPool-201:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-201 - Thread starvation or clock leap detected (housekeeper delta=43m48s781ms).
+2026-04-08T10:25:48.411-07:00  INFO 24462 --- [restful-webservices] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-08T10:25:48.446-07:00  INFO 24462 --- [restful-webservices] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-08T10:25:48.473-07:00  INFO 24462 --- [restful-webservices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08T10:25:48.518-07:00  WARN 24462 --- [restful-webservices] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-04-08T10:25:48.519-07:00  INFO 24462 --- [restful-webservices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-201 - Shutdown initiated...
+2026-04-08T10:25:48.526-07:00  INFO 24462 --- [restful-webservices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-201 - Shutdown completed.
+2026-04-08T20:55:18.111-07:00  INFO 61764 --- [restful-webservices] [restartedMain] c.e.RestfulWebservicesApplication        : Starting RestfulWebservicesApplication using Java 21.0.5 with PID 61764 (/Users/pranavsangu/Documents/Vscode/java/spring_vscode/restful-webservices/target/classes started by pranavsangu in /Users/pranavsangu/Documents/Vscode/java/spring_vscode/restful-webservices)
+2026-04-08T20:55:18.113-07:00  INFO 61764 --- [restful-webservices] [restartedMain] c.e.RestfulWebservicesApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-04-08T20:55:18.142-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-08T20:55:18.143-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-08T20:55:18.589-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-08T20:55:18.590-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08T20:55:18.613-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2026-04-08T20:55:18.623-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-08T20:55:18.624-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08T20:55:18.628-07:00  INFO 61764 --- [restful-webservices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-04-08T20:55:18.930-07:00  INFO 61764 --- [restful-webservices] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-08T20:55:18.939-07:00  INFO 61764 --- [restful-webservices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08T20:55:18.939-07:00  INFO 61764 --- [restful-webservices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-08T20:55:18.958-07:00  INFO 61764 --- [restful-webservices] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 815 ms
+2026-04-08T20:55:19.060-07:00  INFO 61764 --- [restful-webservices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08T20:55:19.206-07:00  INFO 61764 --- [restful-webservices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:da8e5bbf-1004-4369-bce6-e60bc3d7a836 user=SA
+2026-04-08T20:55:19.208-07:00  INFO 61764 --- [restful-webservices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08T20:55:19.237-07:00  INFO 61764 --- [restful-webservices] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-08T20:55:19.274-07:00  INFO 61764 --- [restful-webservices] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-08T20:55:19.563-07:00  INFO 61764 --- [restful-webservices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-08T20:55:19.607-07:00  INFO 61764 --- [restful-webservices] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:da8e5bbf-1004-4369-bce6-e60bc3d7a836]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DA8E5BBF-1004-4369-BCE6-E60BC3D7A836/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-08T20:55:19.873-07:00  INFO 61764 --- [restful-webservices] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-08T20:55:19.878-07:00  INFO 61764 --- [restful-webservices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08T20:55:19.910-07:00  WARN 61764 --- [restful-webservices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08T20:55:20.206-07:00  INFO 61764 --- [restful-webservices] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:da8e5bbf-1004-4369-bce6-e60bc3d7a836'
+2026-04-08T20:55:20.254-07:00  INFO 61764 --- [restful-webservices] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-04-08T20:55:20.258-07:00  INFO 61764 --- [restful-webservices] [restartedMain] c.e.RestfulWebservicesApplication        : Started RestfulWebservicesApplication in 2.439 seconds (process running for 2.917)
+2026-04-08T20:55:26.239-07:00  INFO 61764 --- [restful-webservices] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-08T20:55:26.242-07:00  INFO 61764 --- [restful-webservices] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-08T20:55:26.251-07:00  INFO 61764 --- [restful-webservices] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2026-04-08T20:59:05.096-07:00  INFO 61764 --- [restful-webservices] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-08T20:59:05.162-07:00  INFO 61764 --- [restful-webservices] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-08T20:59:05.215-07:00  INFO 61764 --- [restful-webservices] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-08T20:59:05.230-07:00  INFO 61764 --- [restful-webservices] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08T20:59:05.267-07:00  WARN 61764 --- [restful-webservices] [Thread-1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-04-08T20:59:05.268-07:00  INFO 61764 --- [restful-webservices] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08T20:59:05.272-07:00  INFO 61764 --- [restful-webservices] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
